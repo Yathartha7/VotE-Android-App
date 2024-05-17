@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VotingSystem"
+        tools:targetApi="31">
+        <activity
+            android:name=".admin_voteCount"
+            android:exported="false" />
+        <activity
+            android:name=".admin_resetSystem"
+            android:exported="false" />
+        <activity
+            android:name=".feedback"
+            android:exported="false" />
+        <activity
+            android:name=".FAQ"
+            android:exported="false" />
+        <activity
+            android:name=".voter_voteNow"
+            android:exported="false" />
+        <activity
+            android:name=".voter_myDetails"
+            android:exported="false" />
+        <activity
+            android:name=".voterUpdateDetails"
+            android:exported="false" />
+        <activity
+            android:name=".candidate_myDetails"
+            android:exported="false" />
+        <activity
+            android:name=".candidateUpdateDetails"
+            android:exported="false" />
+        <activity
+            android:name=".withdraw"
+            android:exported="false" />
+        <activity
+            android:name=".view_voters"
+            android:exported="false" />
+        <activity
+            android:name=".loadingscreen"
+            android:exported="false" />
+        <activity
+            android:name=".view_candidates"
+            android:exported="false" />
+        <activity
+            android:name=".test"
+            android:exported="false" />
+        <activity
+            android:name=".admin_dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".candidate_dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".voter_dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".signUp_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".login_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
