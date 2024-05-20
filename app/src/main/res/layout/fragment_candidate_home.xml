@@ -5,7 +5,7 @@
     android:layout_height="680dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".candidate_home"
-    android:background="@drawable/gradient">
+    android:background="@color/white">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -63,14 +63,14 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center"
-                android:background="@color/white">
+                android:background="#85CBEB">
 
                 <ImageButton
                     android:id="@+id/candidate_viewcandidates"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="#85CBEB"
                     android:layout_width="350dp"
                     android:layout_height="140dp"
-                    android:src="@drawable/viewcandidates"
+                    android:src="@drawable/viewc"
                     android:scaleType="fitXY">
                 </ImageButton>
             </LinearLayout>
@@ -88,14 +88,14 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center"
-                android:background="@color/white">
+                android:background="#ffc000">
 
                 <ImageButton
                     android:id="@+id/candidate_withdraw"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="#ffc000"
                     android:layout_width="350dp"
                     android:layout_height="140dp"
-                    android:src="@drawable/withdraw"
+                    android:src="@drawable/withdrawnow"
                     android:scaleType="fitXY"
                     android:padding="10dp">
                 </ImageButton>

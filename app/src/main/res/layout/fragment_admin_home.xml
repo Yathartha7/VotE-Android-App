@@ -5,7 +5,7 @@
     android:layout_height="680dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".admin_home"
-    android:background="@drawable/bg">
+    android:background="@color/white">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -52,7 +52,7 @@
 
         <androidx.cardview.widget.CardView
             android:layout_gravity="center"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:cardElevation="15dp"
@@ -63,21 +63,21 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center"
-                android:background="@color/white">
+                android:background="#a389e5">
 
                 <ImageButton
                     android:id="@+id/admin_countVotes"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="#a389e5"
                     android:layout_width="350dp"
                     android:layout_height="140dp"
-                    android:src="@drawable/newready"
+                    android:src="@drawable/countvotes"
                     android:scaleType="fitXY">
                 </ImageButton>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
             android:layout_gravity="center"
-            android:layout_marginTop="70dp"
+            android:layout_marginTop="40dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:cardElevation="15dp"
@@ -88,14 +88,39 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center"
-                android:background="@color/white">
+                android:background="#8ce8e1">
+
+                <ImageButton
+                    android:id="@+id/admin_addAccount"
+                    android:backgroundTint="#8ce8e1"
+                    android:layout_width="350dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/addaccount"
+                    android:scaleType="fitXY">
+                </ImageButton>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="30dp"
+            android:background="@color/white">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="#f7f20e">
 
                 <ImageButton
                     android:id="@+id/admin_reset"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="#f7f20e"
                     android:layout_width="350dp"
                     android:layout_height="140dp"
-                    android:src="@drawable/reset"
+                    android:src="@drawable/resetsystem"
                     android:scaleType="fitXY"
                     android:paddingLeft="20dp"
                     android:paddingRight="10dp">

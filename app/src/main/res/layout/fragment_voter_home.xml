@@ -5,7 +5,7 @@
     android:layout_height="680dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".voter_home"
-    android:background="@drawable/bg1">
+    android:background="@color/white">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -63,12 +63,12 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center"
-                android:background="@color/white">
+                android:background="#ffc000">
 
                 <ImageButton
                     android:id="@+id/voter_voteNow"
-                    android:backgroundTint="@color/white"
-                    android:layout_width="320dp"
+                    android:backgroundTint="#ffc000"
+                    android:layout_width="350dp"
                     android:layout_height="140dp"
                     android:src="@drawable/votenow"
                     android:scaleType="fitXY">
@@ -88,14 +88,14 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center"
-                android:background="@color/white">
+                android:background="#85CBEB">
 
                 <ImageButton
                     android:id="@+id/voter_viewcandidates"
-                    android:backgroundTint="@color/white"
-                    android:layout_width="320dp"
+                    android:backgroundTint="#85CBEB"
+                    android:layout_width="350dp"
                     android:layout_height="150dp"
-                    android:src="@drawable/viewcandidates"
+                    android:src="@drawable/viewc"
                     android:scaleType="fitXY">
                 </ImageButton>
             </LinearLayout>

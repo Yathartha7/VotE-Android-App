@@ -64,16 +64,7 @@ public class login_Activity extends AppCompatActivity {
         emailTextL= findViewById(R.id.login_email);
         passwordTextL = findViewById(R.id.login_password);
         btnLogin = findViewById(R.id.login_button);
-        txt = findViewById(R.id.signupNow);
 
-        txt.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),signUp_Activity.class);
-                startActivity(intent);
-                finish();
-            }
-        });
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

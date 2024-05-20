@@ -47,16 +47,6 @@ public class signUp_Activity extends AppCompatActivity {
         emailText = findViewById(R.id.signup_email);
         passwordText = findViewById(R.id.signup_password);
         btn = findViewById(R.id.signup_button);
-        txt = findViewById(R.id.loginNow);
-
-        txt.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),login_Activity.class);
-                startActivity(intent);
-                finish();
-            }
-        });
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -79,10 +69,8 @@ public class signUp_Activity extends AppCompatActivity {
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if (task.isSuccessful()) {
                                     // Sign in success, update UI with the signed-in user's information
-                                    Toast.makeText(signUp_Activity.this, "Account created ",
+                                    Toast.makeText(signUp_Activity.this, "New account created ",
                                             Toast.LENGTH_SHORT).show();
-                                    Intent intent = new Intent(getApplicationContext(),login_Activity.class);
-                                    startActivity(intent);
                                     finish();
                                 } else {
                                     // If sign in fails, display a message to the user.

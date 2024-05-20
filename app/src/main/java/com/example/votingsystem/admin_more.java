@@ -24,6 +24,7 @@ public class admin_more extends Fragment {
         // Find the button to view candidates
         ImageButton viewCandidatesButton = view.findViewById(R.id.admin_viewcandidates);
         ImageButton viewVotersButton = view.findViewById(R.id.admin_viewvoters);
+        ImageButton viewFeedbackButton = view.findViewById(R.id.admin_viewfeedback);
 
         // Set click listener on the button
         viewCandidatesButton.setOnClickListener(new View.OnClickListener() {
@@ -42,6 +43,15 @@ public class admin_more extends Fragment {
                 startActivity(intent);
             }
         });
+        viewFeedbackButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Define the Intent to open the CandidatesActivity
+                Intent intent = new Intent(getActivity(), admin_viewFeedback.class);
+                startActivity(intent);
+            }
+        });
+
 
         return view;
     }

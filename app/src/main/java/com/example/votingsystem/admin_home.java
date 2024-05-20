@@ -23,6 +23,7 @@ public class admin_home extends Fragment {
 
         // Find the button to view candidates
         ImageButton countVotesBtn = view.findViewById(R.id.admin_countVotes);
+        ImageButton addAccountBtn = view.findViewById(R.id.admin_addAccount);
         ImageButton resetSystemBtn = view.findViewById(R.id.admin_reset);
 
         // Set click listener on the button
@@ -31,6 +32,14 @@ public class admin_home extends Fragment {
             public void onClick(View v) {
                 // Define the Intent to open the CandidatesActivity
                 Intent intent = new Intent(getActivity(), admin_voteCount.class);
+                startActivity(intent);
+            }
+        });
+
+        addAccountBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), signUp_Activity.class);
                 startActivity(intent);
             }
         });

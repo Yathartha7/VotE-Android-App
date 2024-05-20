@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".login_Activity"
-    android:background="@drawable/bg4">
+    android:background="@drawable/bg1">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -69,17 +69,6 @@
                 android:backgroundTint="@color/black"
                 app:cornerRadius = "20dp"/>
 
-            <TextView
-                android:id="@+id/signupNow"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:padding="8dp"
-                android:layout_gravity="center"
-                android:text="Not yet registered?"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="18sp" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>

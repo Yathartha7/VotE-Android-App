@@ -5,7 +5,7 @@
     android:layout_height="680dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".voter_help"
-    android:background="@drawable/bg1">
+    android:background="@color/white">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -52,11 +52,11 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center"
-                android:background="@color/white">
+                android:background="#f7f20e">
 
                 <ImageButton
                     android:id="@+id/help_faq"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="#f7f20e"
                     android:layout_width="350dp"
                     android:layout_height="140dp"
                     android:src="@drawable/faq"
@@ -77,14 +77,14 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center"
-                android:background="@color/white">
+                android:background="#8ce8e1">
 
                 <ImageButton
                     android:id="@+id/help_feedback"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="#8ce8e1"
                     android:layout_width="350dp"
                     android:layout_height="140dp"
-                    android:src="@drawable/feedback"
+                    android:src="@drawable/submitfeedback"
                     android:scaleType="fitXY">
                 </ImageButton>
             </LinearLayout>

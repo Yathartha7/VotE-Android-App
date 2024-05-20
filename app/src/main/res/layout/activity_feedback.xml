@@ -24,6 +24,7 @@
         android:textSize="25sp">
     </EditText>
     <Button
+        android:id="@+id/voter_submitFeedbackBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

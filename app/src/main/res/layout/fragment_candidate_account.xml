@@ -5,7 +5,7 @@
     android:layout_height="680dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".candidate_account"
-    android:background="@drawable/gradient">
+    android:background="@color/white">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -52,11 +52,11 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center"
-                android:background="@color/white">
+                android:background="#8ed973">
 
                 <ImageButton
                     android:id="@+id/candidate_myDetails"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="#8ed973"
                     android:layout_width="350dp"
                     android:layout_height="140dp"
                     android:src="@drawable/mydetails"
@@ -78,10 +78,10 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center"
-                android:background="@color/white">
+                android:background="#f87676">
 
                 <ImageButton
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="#f87676"
                     android:layout_width="350dp"
                     android:layout_height="140dp"
                     android:src="@drawable/updatedetails"
