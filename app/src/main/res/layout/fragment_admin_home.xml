@@ -41,13 +41,26 @@
                     android:id="@+id/displayName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ADMINISTRATOR"
+                    android:text="ADMIN"
                     android:textColor="@color/white"
                     android:textSize="30sp"
                     android:textStyle="bold">
 
                 </TextView>
             </LinearLayout>
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/logout"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:backgroundTint="#B32020"
+                android:text="Logout"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp">
+            </Button>
         </LinearLayout>
 
         <androidx.cardview.widget.CardView

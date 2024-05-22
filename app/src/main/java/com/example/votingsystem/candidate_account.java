@@ -25,6 +25,7 @@ public class candidate_account extends Fragment {
         // Find the button to view candidates
         ImageButton myDetailsButton = view.findViewById(R.id.candidate_myDetails);
         ImageButton updateDetailsButton = view.findViewById(R.id.candidate_updateDetails);
+        ImageButton changePasswordButton = view.findViewById(R.id.candidate_changePassword);
         // Set click listener on the button
         myDetailsButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,6 +40,14 @@ public class candidate_account extends Fragment {
             public void onClick(View v) {
                 // Define the Intent to open the CandidatesActivity
                 Intent intent = new Intent(getActivity(), candidateUpdateDetails.class);
+                startActivity(intent);
+            }
+        });
+        changePasswordButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Define the Intent to open the CandidatesActivity
+                Intent intent = new Intent(getActivity(), changePassword.class);
                 startActivity(intent);
             }
         });

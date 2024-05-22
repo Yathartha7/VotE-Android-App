@@ -89,7 +89,8 @@
         android:layout_gravity="center"
         android:text="Vote"
         android:textSize="20sp"
-        android:textStyle="bold">
+        android:textStyle="bold"
+        android:backgroundTint="#C42B1F">
     </Button>
     <TextView
         android:layout_width="match_parent"
@@ -98,3 +99,5 @@
         android:layout_margin="12dp">
     </TextView>
 </LinearLayout>
+
+
